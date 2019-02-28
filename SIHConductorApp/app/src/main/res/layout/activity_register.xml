@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="#FFFFFF"
+    tools:context="com.example.sihconductorapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/register_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:textColor="#3380FF"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="91dp" />
+        <EditText
+            android:id="@+id/register_enterusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#3380FF"
+
+            android:layout_marginLeft="50dp"
+
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="78dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"
+        >
+
+        <TextView
+            android:id="@+id/register_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textColor="#3380FF"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <EditText
+            android:id="@+id/register_enteremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="80dp"
+            android:textColor="#3380FF"
+
+
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="247dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/register_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password: "
+            android:textColor="#3380FF"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="148dp" />
+        <EditText
+            android:id="@+id/register_enterpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="55dp"
+            android:textColor="#3380FF"
+
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="132dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/register_busno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus Number: "
+            android:textColor="#3380FF"
+
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="148dp" />
+        <EditText
+            android:id="@+id/register_enterbusno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="55dp"
+            android:textColor="#3380FF"
+
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="132dp" />
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="  Create Account  "
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+
+</LinearLayout>
